@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.42, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: E-CommerceBDDhh
+-- Host: 127.0.0.1    Database: temporal
 -- ------------------------------------------------------
 -- Server version	8.0.42-0ubuntu0.22.04.1
 
@@ -146,7 +146,7 @@ CREATE TABLE `Oferta` (
 
 LOCK TABLES `Oferta` WRITE;
 /*!40000 ALTER TABLE `Oferta` DISABLE KEYS */;
-INSERT INTO `Oferta` VALUES (1,101,460,'2025-06-04'),(2,102,630,'2025-06-06'),(3,103,710,'2025-06-07'),(4,104,360,'2025-06-08'),(5,105,510,'2025-06-09');
+INSERT INTO `Oferta` VALUES (1,101,460,'2025-06-04'),(2,102,630,'2025-06-06');
 /*!40000 ALTER TABLE `Oferta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -294,7 +294,7 @@ CREATE TABLE `Subasta` (
 
 LOCK TABLES `Subasta` WRITE;
 /*!40000 ALTER TABLE `Subasta` DISABLE KEYS */;
-INSERT INTO `Subasta` VALUES (101,'2025-06-03','2025-06-13',450,3),(102,'2025-06-05','2025-06-15',620,5),(103,'2025-06-06','2025-06-16',700,3),(104,'2025-06-07','2025-06-17',350,5),(105,'2025-06-08','2025-06-18',500,3);
+INSERT INTO `Subasta` VALUES (101,'2025-06-03','2025-06-13',450,3),(102,'2025-06-05','2025-06-15',620,5);
 /*!40000 ALTER TABLE `Subasta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -496,4 +496,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-26 12:04:25
+-- Dump completed on 2025-07-17 11:04:38
